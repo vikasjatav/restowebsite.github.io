@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/input.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <div class="container mx-auto ">
+        <div class="navbar flex items-center justify-between p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                    <div class="line h-o.5 w-6 my-1 bg-black p-0.5 "></div>
+                    <div class="line h-o.5 w-6 my-1 bg-black p-0.5 "></div>
+                    <div class="line h-o.5 w-6 my-1 bg-black p-0.5 "></div>
+                </div>
+                <div class="search md:hidden w-6 mr-6"><img src="images/search.svg" alt=""></div>
+            </div>
+            <div class="logo text-center flex md:order-1 ">
+                <div class=" flex justify-start"> <img class="w-10 mr-6 cursor-pointer" src="images/cook-3.svg" alt="">
+                </div>
+                <div class="features absolute w-fit md:static bg-gray-200 md:bg-white inset-0 md:flex
+               md:items-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Home</div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">About</div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Gallury</div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Contact</div>
+                </div>
+
+            </div>
+            <div class="cart text-center md:order-3 flex ">
+                <div class="search hidden md:block mr-6 cursor-pointer "><a href="manu.html">All Manu</a></div>
+                <div class="mx-2 cursor-pointer">Search</div>
+                <img class="w-4 mr-6 cursor-pointer" src="images/search.svg" alt="">
+                <div class="flex md:p-1">
+                    <img class="w-4 h-4 mr-6 cursor-pointer" src="images/cart icon.svg" alt="">
+                    <img class="w-4 h-4 mr-6 cursor-pointer" src="images/account icon.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider flex flex-col-reverse md:flex-row bg-[#e6e6e6] mx-2 ">
+            <div class="left flex flex-col justify-center items-center md:items-baseline py-12 md:ml-32 space-y-5">
+                <h1 class="text-2xl font-medium md:text-4xl mx-5">Surface Laptop 4</h1>
+                <p class="w-3/4 mx-5 text-center md:text-left">
+                    A sleek laptop with a 12.4-inch touchscreen, great typing experience and improved HD camera
+                </p>
+                <button class="text-white px-4 py-2 my-6 font-bold bg-black mx-5">Order Now ></button>
+            </div>
+            <div class="right">
+                <img class=" md:w-[48rem]" src="images/home-img-1.png" alt="">
+            </div>
+
+        </div>
+        <div>
+            <div class="md:text-sm">
+                <h3 class="sub-heading text-center text-xs text-green-500 pt-4 md:text-4xl">Our Dishes</h3>
+                <h1 class="headind text-center text-3 xl uppercase text-black pb-8">Popular Dishes</h1>
+            </div>
+            <div class="grid grid-flow-row grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:flex-row ">
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <div class="">
+                        <a href="#" class=" ">
+                            <img src="images/dish-1.png" class=" rounded-tl-lg rounded-tr-lg mx-28 md:mx-24 p-5  ">
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex md:flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <a href="#">
+                        <img src="images/dish-2.png" class=" rounded-tl-lg rounded-tr-lg mx-28 md:mx-24 p-5">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <a href="#">
+                        <img src="images/dish-3.png" class=" rounded-tl-lg rounded-tr-lg  mx-28 md:mx-24 p-5">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <a href="#">
+                        <img src="images/dish-4.png" class=" rounded-tl-lg rounded-tr-lg mx-28 md:mx-24 p-5">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <a href="#">
+                        <img src="images/dish-5.png" class=" rounded-tl-lg rounded-tr-lg mx-28 md:mx-24 p-5">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg  rounded-lg border-2 shadow-gray-300">
+                    <a href="#">
+                        <img src="images/dish-6.png" class=" rounded-tl-lg rounded-tr-lg mx-28 md:mx-24 p-5">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-center"><a href="#">Tasty Food</a></h3>
+                        <div class="flex flex-row justify-center p-6">
+                            <span class="text-green-500 text font-bold mr-4 text-xl">$15.99</span>
+                            <div class="">
+                                <a href="#"
+                                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-xs"><img
+                                        class="w-4 h-4 mr-3" src="images/cart icon.svg" alt=""> Add to cart </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- dishes section end  -->
+
+        <!-- Footer section start  -->
+        <section class="footer">
+            <div class="box-container grid grid-cols-4 gap-6">
+                <div class="box p-2 text-lg text-gray-600">
+                    <h3 class="p-2 text-2xl text-blue-900">Locations</h3>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">India</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Japan</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Russia</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">USA</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Franch</a>
+                </div>
+                <div class="box p-2 text-lg text-gray-600">
+                    <h3 class="p-2 text-2xl text-blue-900">Quick Links</h3>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Home</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">About</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Dishes</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Gallury</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Manu</a>
+                </div>
+                <div class="box p-2 text-lg text-gray-600">
+                    <h3 class="p-2 text-2xl text-blue-900">Contact Info</h3>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">+123-456-7890</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">+111-222-3333</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">resto123@gmail.com</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">rakeshsir@gmail.com</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Dihli, india - 400104</a>
+
+                </div>
+                <div class="box p-2 text-lg text-gray-600">
+                    <h3 class="p-2 text-2xl text-blue-900">Follow Us</h3>
+                    <a class="block p-2 text-sm text-gray-400  fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">Facebook</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">instagram</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">twitter</a>
+                    <a class="block p-2 text-sm text-gray-400 fitem hover:underline hover:underline-offset-8 cursor-pointer"
+                        href="#">linkedin</a>
+
+
+                </div>
+
+            </div>
+            <div class="credit text-center border-t-2 text-xl p-2 pt-6 mt-6">Copyright @2022 by <span class="text-green-500">Mr.Vikas Jatav</span></div>
+
+        </section>
+
+        <!-- Footer section end  -->
+
+        <!-- loader part  -->
+        <!-- <div class="loader-container fixed top-0 left-0 h-full w-full z-[10000] bg-white flex text-center justify-center truncate ">
+            <img class="w-[35rem] " src="images/loader.gif" alt="">
+        </div> -->
+
+
+
+    </div>
+</body>
+
+</html>
